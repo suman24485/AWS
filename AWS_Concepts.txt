@@ -1,0 +1,72 @@
+AWS Concepts
+
+1. Understanding AWS
+
+What is "The Cloud"?
+
+Its just a computer somewhere else
+icloud
+
+AWS is cloud serivces provider
+- Storage
+- Computing power
+- Databases
+- Networking
+- Analytics
+- Virutalization
+- Security
+- Developer tools
+
+Common personal uses of cloud services
+- Backups of the personal data
+- sharing across devices
+
+Cloud Terminology
+#1 High Availability (HA)
+#2 Fault Tolerant (FT)
+#3 Scalability
+#4 Elasticity
+
+2. Understanding VPCs ( Virtual Private Cloud)
+
+AWS Cloud
+  VPC1
+    - AWS EC2
+    - AWS RDS
+  VPC2
+    -
+    -
+  VPC3
+    -
+    -
+
+3. Understanding EC2 (Part 1)
+
+- Amazon EC2 - Compute Power - Virutal equivalent of basic computer(server computer)
+- EC2 server will be refered as "EC2 Instance"
+- Common use - Web Hosting
+
+4. Understanding RDS
+
+- RDS - DB platform provisioned by Amazon
+- Common uses - commonly used for things like storing
+  - Customer account info
+  - Inventory Catalog
+
+5. Understanding S3
+
+- S3 - Massive Storage Bucket
+
+- Common use
+  - Mass Storage
+  - Long Term storage
+
+6. Understanding EC2 (Part 2)
+
+EC2 good for any type of "processing" activity.
+
+7. Understanding How AWS is physically Setup
+
+AWS Region - collection of Availability zones
+  - Availability Zones - each zone consits of a data center
+    - AWS Data Center
