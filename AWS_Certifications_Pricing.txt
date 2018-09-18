@@ -1,0 +1,10 @@
+Cloud Practitioner 		 - 100$
+Solutions Architect Associate    - 150$
+Developer Associate		 - 150$
+SysOps Administrator Associate   - 150$
+Solutions Architect Professional - 300$
+DevOps Engineer Professional 	 - 300$
+Advanced Networking - Specialty  - 300$
+Security - Specialty		 - 300$
+	
+

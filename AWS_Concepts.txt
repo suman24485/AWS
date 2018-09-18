@@ -55,7 +55,7 @@ AWS Cloud
 
 5. Understanding S3
 
-- S3 - Massive Storage Bucket
+- S3 - Simple Storage Service -  Massive Storage Bucket
 
 - Common use
   - Mass Storage

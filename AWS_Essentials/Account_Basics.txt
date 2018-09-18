@@ -1,0 +1,22 @@
+Account Basics
+
+1. Free Tier
+  - Limited free use of AWS
+  - Almost all AWS services offer some kind of free
+  - Services
+    EC2
+    EBS( ELastic Block Storage)
+    S3
+    RDS
+    DynamoDB
+    ELB
+    SNS
+    LAmbda
+    for full list - aws.amazon.com/free
+
+2. How to create aws account
+    - aws.amazon.com
+3. how to navigate
+
+4. AWS Documentation
+aws.amazon.com -> Support -> Documentation

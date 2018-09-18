@@ -1,0 +1,14 @@
+- How to create an AWS Account
+- IAM(Identity and Access Mgmt)
+- VPC(Virutal Private Cloud)
+- S3(Simple Storage Service)
+- EC2(Elastic Cloud Computing)
+- RDS/DynamoDB(databases)
+- SNS(Simple Notification Service)
+- Cloudwatch (Monitoring)
+- ELB(Elastic Load Balancing - distributing traffic)
+- Auto Scaling(scalable and elastic architecture)
+- Route 53(Domains and DNS)
+- Lambda(Serverless computing)
+
+Project Omega
