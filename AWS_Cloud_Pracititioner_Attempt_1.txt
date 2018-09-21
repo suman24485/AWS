@@ -1,0 +1,62 @@
+2) Thomas is managing the access rights and credentials for all the employees that have access to his company's AWS account. This morning, he was notified that some of these accounts may have been compromised, and he now needs to change the password policy and re-generate a new password for all users. What AWS service does Thomas need to use in order to accomplish this?
+
+Incorrect
+
+Correct answer
+None of the above
+
+Explanation
+Identity and Access Management (IAM) is the AWS service where password policies and user credentials are managed. (Policy and Access Management as a service does not exist).
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1550/lesson/1/module/154
+
+7) Stephen is having issues tracking how much compute capacity his application is using. Ideally, he wants to track and have alarms for when CPU utilization goes over 70%. What should Stephen do to accomplish this?
+
+Incorrect
+
+Correct answer
+Configure a CloudWatch alarm with an alarm threshold set to trigger when CPU utilization is greater than 70%.
+
+Explanation
+The answer is to configure a CloudWatch alarm with an alarm threshold set to trigger when CPU utilization is greater than 70%. This will display the alarm in "alarm" state when CPU utilization is greater than 70%. This question has been worded very specifically with the works "goes above 70%". This disqualifies the answer that stated "great than or equal to 70%". The AWS exam will have very tricky questions like this.
+
+11) What AWS service must you use if you want to configure an AWS billing alarm?
+
+Incorrect
+
+Correct answer
+CloudWatch
+
+Explanation
+CloudWatch is the AWS service that allows you to collect metrics, and create alarms based on those metrics. Billing metrics can be tracked in CloudWatch, therefore billing alarms can be created.
+
+21) You have just set up a brand new AWS account. You want to keep monthly billing under $100, but you are worried about going over that limit. What can you set up in order to be notified when the monthly bill approaches $100?
+
+Incorrect
+
+Correct answer
+A CloudWatch billing alarm that triggers an SNS notification to your email address.
+
+Explanation
+In CloudWatch, you can set up a billing alarm that will trigger when your monthly bill hit the set threshold. That alarm can then be set up to trigger an SNS topic that will send you a notification that the alarm threshold as been met
+
+27) Big Cloud Jumbo Corp is beginning to explore migrating their entire on-premises data center to AWS. They are very concerned about how much it will cost once their entire I.T. infrastructure is running on AWS. What tool can you recommend so that they can estimate what the cost of using AWS may be?
+
+Incorrect
+
+Correct answer
+AWS TCO Calculator
+
+Explanation
+The AWS TCO (Total Cost of Ownership) Calculator is a free tool provided by AWS. It allows you to compare your current on-premises cost vs. estimated AWS cost.
+
+40) Which S3 storage class has lowest object availability rating?
+
+Incorrect
+
+Correct answer
+Infrequent Access
+
+Explanation
+Infrequent access has the lowest availability rating (99.90%). Standard and Reduced Redundancy have an availability rating of 99.99%
