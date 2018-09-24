@@ -1,0 +1,501 @@
+1) If you have a set of frequently accessed files that are used on a daily basis, what S3 storage class should you store them in?
+
+Incorrect
+
+Correct answer
+Standard
+
+Explanation
+The Standard storage class should be used for files that you access on a daily or very frequent basis.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1549/lesson/2/module/154
+
+2) What is the availability and durability rating of S3 Standard Storage Class?
+
+Correct
+
+Correct answer
+99.999999999% Durability and 99.99% Availability
+
+Explanation
+S3 Standard Storage class has a rating of 99.999999999% durability (referred to as 11 nines) and 99.99% availability.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1549/lesson/1/module/154
+
+3) What are the main benefits of On-Demand EC2 instances?
+
+Correct
+
+Correct answer
+They are the most flexible buying option., You can create, start, stop, and terminate them at any time.
+
+Explanation
+On-demand EC2 instances are widely used due to their flexibility. You can create, start, stop, and terminate at any time (with no startup or termination fees). Although due to this flexibility, they are the most expensive buying option.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1552/lesson/1/module/154
+
+4) Which of the following are benefits of AWS's Relational Database Service (RDS)?
+
+Correct
+
+Correct answer
+Resizable capacity, Automated patches and backups
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1557/lesson/1/module/154
+
+5) What is the term used to describe the security procedure of giving an AWS user only access to the exact services he/she needs to do the required job (and nothing more)?
+
+Incorrect
+
+Correct answer
+The Principle of Least Privilege
+
+Further Reading
+See Practitioner's Brief Appendix
+
+6) What services has built-in DDoS mitigation and/or protection?
+
+Correct
+
+Correct answer
+None of the above
+
+Explanation
+AWS services with built-in DDoS mitigation/protection include: 1) Route 53 2) CloudFront 3) WAF (web application firewall) 4) Elastic Load Balancing 5) VPCs and Security Groups
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1548/lesson/5/module/154
+
+7) Big Cloud Jumbo Corp is beginning to explore migrating their entire on-premises data center to AWS. They are very concerned about how much it will cost once their entire I.T. infrastructure is running on AWS. What tool can you recommend so that they can estimate what the cost of using AWS may be?
+
+Correct
+
+Correct answer
+AWS TCO Calculator
+
+Explanation
+The AWS TCO (Total Cost of Ownership) Calculator is a free tool provided by AWS. It allows you to compare your current on-premises cost vs. estimated AWS cost.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1548/lesson/4/module/154
+
+8) What TWO services/features are required to have highly available and fault tolerant architecture in AWS?
+
+Correct
+
+Correct answer
+Elastic Load Balancer, Auto Scaling
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1553/lesson/2/module/154
+
+9) If you want to easily share a file with a friend, family or coworker, what AWS solution should you use?
+
+Correct
+
+Correct answer
+Upload the object to S3 and share it via its object's S3 public object URL.
+
+Explanation
+You can easily share objects uploaded into S3 by provided others with the object's URL.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1549/lesson/2/module/154
+
+10) What are the benefits of DynamoDB?
+
+Correct
+
+Correct answer
+Single-digit millisecond latency., Supports both document and key-value store data models., Automatic scaling of throughput capacity.
+
+Explanation
+DynamoDB does not use/support other NoSQL database engines. You only have access to use DynamoDB's built-in engine.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1557/lesson/1/module/154
+
+11) What should you do if you believe your AWS account has been compromised?
+
+Correct
+
+Correct answer
+Change all IAM user's passwords., Respond to any notifications you received from AWS through the AWS Support Center.
+
+Explanation
+If you believe your account has been compromised, you should immediately change all IAM user's passwords, and Respond to any notifications you received from AWS through the AWS Support Center. You should NEVER wait for any amount of time, and you do not have to delete you account.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1548/lesson/6/module/154
+
+12) Under what circumstances would someone want to use ElastiCache?
+
+Correct
+
+Correct answer
+They need in-memory data store service., They need to improve the performance of their web application.
+
+Explanation
+ElastiCache is used as an in-memory data store or cache in the cloud. Benefits include improved performance for web applications (that rely on information stored in a database). Edge Locations are used for caching content with the CloudFront service, so that is not a correct answer here.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1557/lesson/2/module/154
+
+13) Stephen is having issues tracking how much compute capacity his application is using. Ideally, he wants to track and have alarms for when CPU utilization goes over 70%. What should Stephen do to accomplish this?
+
+Correct
+
+Correct answer
+Configure a CloudWatch alarm with an alarm threshold set to trigger when CPU utilization is greater than 70%.
+
+Explanation
+The answer is to configure a CloudWatch alarm with an alarm threshold set to trigger when CPU utilization is greater than 70%. This will display the alarm in "alarm" state when CPU utilization is greater than 70%. This question has been worded very specifically with the works "goes above 70%". This disqualifies the answer that stated "great than or equal to 70%". The AWS exam will have very tricky questions like this.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1555/lesson/1/module/154
+
+14) Matt is working on a project that involves converting images format from .png to .jpg. Thousands of images have to be converted; however, time is not really an issue and continuous processing is not required. Which type of EC2 buying option would be most cost-effective for Matt to use?
+
+Correct
+
+Correct answer
+Spot
+
+Explanation
+Spot instances offer the cheapest option of all EC2's buying options. However, spot instances should only be used when there can be interruptions in the processing jobs being conducted. This is due to the fluctuation in spot pricing. If the spot price goes above your bid price, then you will lose access to the spot instance (thus causing a stoppage in processing).
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1552/lesson/1/module/154
+
+15) John is working with a data set, and he needs to import it into a relational database service. Which AWS service will meet his needs?
+
+Correct
+
+Correct answer
+RDS
+
+Explanation
+RDS is AWS's relational database service.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1557/lesson/1/module/154
+
+16) If you want in-depth details on how to create, manage, and attach IAM access policies to IAM users, in what AWS resource should you look?
+
+Correct
+
+Correct answer
+AWS Service Documentation
+
+Explanation
+AWS Service documentation is a collection of documents specific to each AWS service. They contain detailed how-to's, as well as technical walkthroughs and specifications.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1548/lesson/7/module/154
+
+17) What AWS service allows you to have your own private network in the AWS cloud?
+
+Correct
+
+Correct answer
+Virtual Private Cloud (VPC)
+
+Explanation
+A Virtual Private Cloud (VPC) is a private sub-section of AWS that is your own private network. You control what resources you place inside the VPC and the security features around it.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1551/lesson/1/module/154
+
+18) Which of the following will affect the price you pay for an EC2 instance?
+
+Correct
+
+Correct answer
+The Amazon Machine Image (AMI) you select, The Instance Type you select, How long you use the instance for
+
+Explanation
+EC2 instance pricing various depending on many variables. 1) The type of buying option 2) Selected Ami 3) Selected instance type 4) Region 5) Data in/out 6) Storage capacity
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1552/lesson/1/module/154
+
+19) The concept of elasticity is most closely associated with which of the following?
+
+Correct
+
+Correct answer
+Auto Scaling
+
+Explanation
+Elasticity is the concept that a system can easily (and cost-effectively) both increase in capacity based on-demand and also shrink in capacity based on-demand. Auto Scaling on AWS is specifically designed to (automatically) increase and decrease server capacity based on-demand.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1553/lesson/2/module/154
+
+20) What are the primary benefits of using Lambda?
+
+Correct
+
+Correct answer
+Pay for only the compute time you consume., Run code without provisioning servers.
+
+Explanation
+Lambda, being AWS's serverless compute platform, means there are no servers, instance types, or capacity to select. That is all managed for you. With Lambda, you only for the when your code is actually being executed.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1552/lesson/2/module/154
+
+21) Jeff is building a web application on AWS. He wants to make sure his application is highly available to his customers. What infrastructure components of the AWS cloud allow Jeff to accomplish this goal?
+
+Correct
+
+Correct answer
+Availability Zones, Regions
+
+Explanation
+As part of AWS' global infrastructure, Regions and Availability Zones allow for backups and duplicate components to be placed in seperate (isolated) areas of the globe. If one region/Availability Zone were to fail, duplicates in other regions/Availability Zones can be used.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1499/lesson/6/module/154
+
+22) How much data can you store in S3?
+
+Correct
+
+Correct answer
+Storage capacity is virtually unlimited.
+
+Explanation
+Although there is theoretically a capacity limit, as an S3 user, there is no limited on the amount of data you can store in S3.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1549/lesson/1/module/154
+
+23) What is the purpose of AWS's Route 53 service?
+
+Partially Correct
+
+Correct answer
+Domain Registration, Domain Name System (DNS) service
+
+Explanation
+Route 53 is AWS's domain and DNS management service. You can use it to register new domain names, as well as manage DNS record sets.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1554/lesson/1/module/154
+
+24) Kim is managing a web application running on the AWS cloud. The application is currently utilizing eight EC2 servers for its compute platform. Earlier today, two of those web servers crashed; however, none of her customers were affected. What has Kim done correctly in this scenario?
+
+Correct
+
+Correct answer
+Properly build a fault tolerant system.
+
+Explanation
+A fault tolerant system is one that can sustain a certain amount of failure while still remaining operational.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1499/lesson/5/module/154
+
+25) What is one benefit AND one drawback of buying a reserved EC2 instance?
+
+Correct
+
+Correct answer
+You are locked in to either a one- or three-year pricing commitment. , Reserved instances can be purchased as a significant discount over on-demand instances.
+
+Explanation
+Reserved instances require a one- or three-year purchase term, so you are committing to paying for that much compute capacity for that full time period. However, in exchange for the long-term commitment, you will receive a discount (of up to 75%) over using an on-demand instance (for that same time period).
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1552/lesson/1/module/154
+
+26) What acts as an address (like a mailing address) for a web server located on a network?
+
+Incorrect
+
+Correct answer
+IP Address
+
+Explanation
+An IP address is a severs address on a network. It is how traffic/request get routed to it (much like a piece of mail gets routed to your home).
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1499/lesson/2/module/154
+
+27) What AWS feature acts as a traffic distribution regulator, making sure each EC2 instance in a system get the same amount of traffic?
+
+Correct
+
+Correct answer
+ELB
+
+Explanation
+An Elastic Load Balancer is responsible for evenly distributing incoming web traffic between all the EC2 instances associated with it. This help prevent one server from becoming overloaded with traffic, while another server remains underutilized.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1553/lesson/1/module/154
+
+28) Your company's upper management is getting very nervous about managing governance, compliance, and risk auditing in AWS. Which service should you enable and inform upper management about?
+
+Incorrect
+
+Correct answer
+CloudTrail
+
+Explanation
+AWS CloudTrail is designed to log all actions taken in your AWS account. This provides a great resource for governance, compliance, and risk auditing.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1555/lesson/2/module/154
+
+29) Why would a company decide to use AWS over an on-premises data center?
+
+Correct
+
+Correct answer
+Highly available infrastructure, Elastic resources based on demand
+
+Explanation
+Highly available infrastructure and Elastic resources based on demand are two of the main benefits of using AWS. AWS does NOT offer free, unlimited storage (you pay by the GB), and the architecture may be highly available and extremely stable, but nothing is 100% fail proof.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1499/lesson/5/module/154
+
+30) What does S3 stand for?
+
+Correct
+
+Correct answer
+Simple Storage Service
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1549/lesson/1/module/154
+
+31) If you are using an on-demand EC2 instance, how are you being charged for it?
+
+Correct
+
+Correct answer
+You are charged per second, based on an hourly rate, and there are no termination fees.
+
+Explanation
+On-demand EC2 instances are exactly that, on-demand. There are no upfront or termination fees, and you are charged for each second of usage (based on an hourly rate).
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1552/lesson/1/module/154
+
+32) Tracy has created a web application, placing it's underlying infrastructure in the N. Virginia (US-East-1) region. After several months, Tracy notices that much of the traffic coming to her website is coming from Japan. What can Tracy do to (best) help reduce latency for her users in Japan?
+
+Correct
+
+Correct answer
+Create a CDN using CloudFront, making sure the proper content is cached at Edge Locations closest to Japan.
+
+Explanation
+CloudFront is AWS's content delivery network (CDN) service. You can use it to cache web content at edge locations what are closest to you customers. This will decrease latency for the customer and improve overall performance.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1554/lesson/2/module/154
+
+33) What endpoints are possible to send messages to with Simple Notification Service?
+
+Partially Correct
+
+Correct answer
+SMS, Lambda, SQS
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1556/lesson/1/module/154
+
+34) If an object is stored in the Standard S3 storage class and you want to move it to Glacier, what must you do in order to properly migrate it?
+
+Correct
+
+Correct answer
+create a lifecycle policy that will migrate the object during a specified time of your choosing
+
+Explanation
+Any object uploaded to S3 must first be placed into either the Standard, Reduced Redundancy, or Infrequent Access storage class. Once in S3 the only way to move the object to glacier is through a lifecycle policy.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1549/lesson/2/module/154
+
+35) S3 storage classes are rated by what two metric categories?
+
+Correct
+
+Correct answer
+Availabilty, Durability
+
+Explanation
+Each S3 storage class is rated on its availability and durability.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1549/lesson/1/module/154
+
+36) Before moving and/or storing object in AWS Glacier, what considerations should you make regarding the data you want to store.
+
+Correct
+
+Correct answer
+Make sure you are ok with it taking at minimum a few minutes to retrieve the data once stored in Glacier.
+
+Explanation
+Objects stored in Glacier take time to retrieve. You can pay for expedited retrieval, which will take several minutes - OR wait several hours (for normal retrieval).
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1549/lesson/2/module/154
+
+37) What best describes what AWS is?
+
+Correct
+
+Correct answer
+AWS is a cloud services provider.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1499/lesson/3/module/154
+
+38) What AWS storage class should be used for long-term, archival storage?
+
+Correct
+
+Correct answer
+Glacier
+
+Explanation
+Glacier should be used for (and is specifically designed for) long-term , archival storage.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1549/lesson/2/module/154
+
+39) What AWS service has built-in DDoS mitigation?
+
+Correct
+
+Correct answer
+CloudFront
+
+Explanation
+With CloudFront, you cache content at Edge Locations, which shield your underlining application infrastructure from DDoS attacks.
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1554/lesson/2/module/154
+
+40) Thomas is managing the access rights and credentials for all the employees that have access to his company's AWS account. This morning, he was notified that some of these accounts may have been compromised, and he now needs to change the password policy and re-generate a new password for all users. What AWS service does Thomas need to use in order to accomplish this?
+
+Correct
+
+Correct answer
+None of the above
+
+Explanation
+Identity and Access Management (IAM) is the AWS service where password policies and user credentials are managed. (Policy and Access Management as a service does not exist).
+
+Further Reading
+https://linuxacademy.com/cp/courses/lesson/course/1550/lesson/1/module/154
